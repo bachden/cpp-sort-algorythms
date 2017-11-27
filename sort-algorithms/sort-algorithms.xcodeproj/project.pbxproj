@@ -13,6 +13,7 @@
 		F12AA8A51FC94BF00011AFE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12AA89C1FC94BEF0011AFE4 /* main.cpp */; };
 		F12AA8A61FC94BF00011AFE4 /* insertionsort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12AA89D1FC94BEF0011AFE4 /* insertionsort.cpp */; };
 		F12AA8A71FC94BF00011AFE4 /* quicksort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12AA8A01FC94BEF0011AFE4 /* quicksort.cpp */; };
+		F1FD01581FCBB6AA009AE777 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1FD01561FCBB6AA009AE777 /* utils.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		F12AA89F1FC94BEF0011AFE4 /* mergesort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mergesort.hpp; sourceTree = "<group>"; };
 		F12AA8A01FC94BEF0011AFE4 /* quicksort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quicksort.cpp; sourceTree = "<group>"; };
 		F12AA8A11FC94BEF0011AFE4 /* quicksort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = quicksort.hpp; sourceTree = "<group>"; };
+		F1FD01561FCBB6AA009AE777 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		F1FD01571FCBB6AA009AE777 /* utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utils.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 		F12AA8781FC93F000011AFE4 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				F1FD01561FCBB6AA009AE777 /* utils.cpp */,
+				F1FD01571FCBB6AA009AE777 /* utils.hpp */,
 				F12AA8971FC94BEE0011AFE4 /* bubblesort.cpp */,
 				F12AA89E1FC94BEF0011AFE4 /* bubblesort.hpp */,
 				F12AA89B1FC94BEF0011AFE4 /* heapsort.cpp */,
@@ -150,6 +155,7 @@
 				F12AA8A51FC94BF00011AFE4 /* main.cpp in Sources */,
 				F12AA8A41FC94BF00011AFE4 /* heapsort.cpp in Sources */,
 				F12AA8A61FC94BF00011AFE4 /* insertionsort.cpp in Sources */,
+				F1FD01581FCBB6AA009AE777 /* utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
